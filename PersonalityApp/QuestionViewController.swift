@@ -15,9 +15,6 @@ class QuestionViewController: UIViewController {
                                                      Answer (text: "Burger", type: .cuttlefish),
                                                      Answer (text: "Apples", type: .octopus),
                                                      Answer (text: "Ramen", type: .kompi)
-                                                     
-                                                     
-                                                     
                                            ]),
                                   Question(text: "What would you rather be?",
                                            type: .question2,
@@ -25,8 +22,6 @@ class QuestionViewController: UIViewController {
                                                      Answer (text: "A benevolent king", type: .cuttlefish),
                                                      Answer (text: "A snail", type: .octopus),
                                                      Answer (text: "Elkay EZH2O Enhanced Wall Mounted Filtered Water Bottle Refilling Station, Light Gray", type: .kompi)
-                                                     
-                                                     
                                            ]),
                                   
                                   Question(text: "Where would you live?",
@@ -37,6 +32,8 @@ class QuestionViewController: UIViewController {
                                                      Answer (text: "In space", type: .kompi)
                                            ]),
     ]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

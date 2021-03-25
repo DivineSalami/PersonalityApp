@@ -125,8 +125,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UnH-fx-G4U">
-                                <rect key="frame" x="56" y="804" width="282" height="4"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JeM-Dp-aT1">
+                                <rect key="frame" x="50" y="758" width="293" height="4"/>
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IHJ-LL-tox"/>
@@ -137,17 +137,17 @@
                             <constraint firstItem="aVD-et-8cR" firstAttribute="centerX" secondItem="InY-Fj-YnA" secondAttribute="centerX" id="64X-wM-LDD"/>
                             <constraint firstItem="IHJ-LL-tox" firstAttribute="trailing" secondItem="6MX-KV-epD" secondAttribute="trailing" constant="16" id="9MH-rK-IeN"/>
                             <constraint firstItem="aVD-et-8cR" firstAttribute="centerY" secondItem="InY-Fj-YnA" secondAttribute="centerY" id="CjV-cE-D8J"/>
-                            <constraint firstItem="UnH-fx-G4U" firstAttribute="leading" secondItem="IHJ-LL-tox" secondAttribute="leading" constant="56" id="Hgq-uz-Ssj"/>
+                            <constraint firstItem="IHJ-LL-tox" firstAttribute="bottom" secondItem="JeM-Dp-aT1" secondAttribute="bottom" constant="46" id="Hmd-s1-k6W"/>
                             <constraint firstItem="fGN-GP-YPr" firstAttribute="top" secondItem="IHJ-LL-tox" secondAttribute="top" constant="20" id="Ky5-vD-LjK"/>
+                            <constraint firstItem="JeM-Dp-aT1" firstAttribute="leading" secondItem="IHJ-LL-tox" secondAttribute="leading" constant="50" id="N09-Ua-iL4"/>
                             <constraint firstItem="6MX-KV-epD" firstAttribute="centerY" secondItem="InY-Fj-YnA" secondAttribute="centerY" id="PJ4-jR-Wgf"/>
                             <constraint firstItem="6MX-KV-epD" firstAttribute="centerX" secondItem="InY-Fj-YnA" secondAttribute="centerX" id="VBx-eB-jFW"/>
                             <constraint firstItem="IHJ-LL-tox" firstAttribute="trailing" secondItem="gWq-7A-E1d" secondAttribute="trailing" constant="16" id="Wdr-Xw-epu"/>
                             <constraint firstItem="gWq-7A-E1d" firstAttribute="centerY" secondItem="InY-Fj-YnA" secondAttribute="centerY" id="aNZ-D2-dWH"/>
+                            <constraint firstItem="IHJ-LL-tox" firstAttribute="trailing" secondItem="JeM-Dp-aT1" secondAttribute="trailing" constant="71" id="dWR-tD-ph7"/>
                             <constraint firstItem="6MX-KV-epD" firstAttribute="leading" secondItem="IHJ-LL-tox" secondAttribute="leading" constant="16" id="g67-82-r7N"/>
                             <constraint firstItem="fGN-GP-YPr" firstAttribute="centerX" secondItem="InY-Fj-YnA" secondAttribute="centerX" id="gOV-UY-JBN"/>
-                            <constraint firstItem="UnH-fx-G4U" firstAttribute="centerY" secondItem="InY-Fj-YnA" secondAttribute="centerY" constant="385" id="geH-sI-eyp"/>
                             <constraint firstItem="aVD-et-8cR" firstAttribute="leading" secondItem="IHJ-LL-tox" secondAttribute="leading" constant="16" id="kr9-ic-Rkj"/>
-                            <constraint firstItem="IHJ-LL-tox" firstAttribute="trailing" secondItem="UnH-fx-G4U" secondAttribute="trailing" constant="76" id="qiy-M8-Rym"/>
                             <constraint firstItem="gWq-7A-E1d" firstAttribute="centerX" secondItem="InY-Fj-YnA" secondAttribute="centerX" id="s92-bZ-gig"/>
                         </constraints>
                         <variation key="default">
