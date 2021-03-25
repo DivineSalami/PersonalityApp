@@ -12,18 +12,23 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        var _: [Question] = [ Question(text: "Which do you prefer to eat? ",
+                                              type: .question1,
+                                              answers: [Answer (text: "Chicken", type: .snail),
+                                                        Answer (text: "Chicken", type: .snail),
+                                                        Answer (text: "Chicken", type: .snail),
+                                                        Answer (text: "Chicken", type: .snail)
+                                                                                                                
+                                                                                                                 
+                                                                                                                 
+        
+        
+        
+        ])
+        
+        
+        ]
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
