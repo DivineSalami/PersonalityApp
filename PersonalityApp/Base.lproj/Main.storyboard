@@ -159,7 +159,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="SWf-Pz-q3D"/>
                     <connections>
+                        <outlet property="buttonEight" destination="bWB-GV-2Xj" id="uhP-mz-Y8a"/>
+                        <outlet property="buttonEleven" destination="ynh-Nz-QBV" id="chb-uo-A1u"/>
+                        <outlet property="buttonFive" destination="JXl-UL-rvX" id="MbC-bd-CW9"/>
+                        <outlet property="buttonFour" destination="xjO-rA-a9p" id="7bH-bW-19m"/>
+                        <outlet property="buttonNine" destination="ORz-FM-4Dl" id="JSo-bh-F1O"/>
+                        <outlet property="buttonOne" destination="TRL-Ro-eWC" id="5QS-4S-hOG"/>
+                        <outlet property="buttonSeven" destination="KNO-fl-pZt" id="1ou-27-Y6u"/>
+                        <outlet property="buttonSix" destination="aSf-uL-sKg" id="gpR-Wa-DoX"/>
+                        <outlet property="buttonTen" destination="tz2-sV-MOX" id="HhE-rZ-NIb"/>
+                        <outlet property="buttonThree" destination="K5z-Aj-tLE" id="8Au-n5-eiC"/>
+                        <outlet property="buttonTwelve" destination="Jnn-b4-acS" id="KYY-K5-hAL"/>
+                        <outlet property="buttonTwo" destination="c6p-aX-RGj" id="RDj-uE-9js"/>
+                        <outlet property="questionLabel" destination="fGN-GP-YPr" id="zYa-Kz-SDP"/>
                         <outlet property="questionOne" destination="6MX-KV-epD" id="gEQ-yN-hGJ"/>
+                        <outlet property="questionProgress" destination="JeM-Dp-aT1" id="zGy-hX-Eju"/>
                         <outlet property="questionThree" destination="gWq-7A-E1d" id="0yL-NX-HOw"/>
                         <outlet property="questionTwo" destination="aVD-et-8cR" id="Oue-IY-ZKP"/>
                         <segue destination="X5i-cf-O0R" kind="show" identifier="ResultsSegue" id="miz-XR-1UF"/>

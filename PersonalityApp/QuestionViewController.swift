@@ -10,8 +10,33 @@ import UIKit
 class QuestionViewController: UIViewController {
 
     @IBOutlet weak var questionOne: UIStackView!
-    @IBOutlet weak var questionThree: UIStackView!
+    
+    @IBOutlet weak var buttonOne: UIButton!
+    @IBOutlet weak var buttonTwo: UIButton!
+    @IBOutlet weak var buttonThree: UIButton!
+    @IBOutlet weak var buttonFour: UIButton!
+    
     @IBOutlet weak var questionTwo: UIStackView!
+    
+    @IBOutlet weak var buttonFive: UIButton!
+    @IBOutlet weak var buttonSix: UIButton!
+    @IBOutlet weak var buttonSeven: UIButton!
+    @IBOutlet weak var buttonEight: UIButton!
+    
+    
+    
+    @IBOutlet weak var questionThree: UIStackView!
+    
+    @IBOutlet weak var buttonNine: UIButton!
+    @IBOutlet weak var buttonTen: UIButton!
+    @IBOutlet weak var buttonEleven: UIButton!
+    @IBOutlet weak var buttonTwelve: UIButton!
+    
+    
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    @IBOutlet weak var questionProgress: UIProgressView!
     
     
     var questions: [Question] = [ Question(text: "Which do you prefer to eat?",
