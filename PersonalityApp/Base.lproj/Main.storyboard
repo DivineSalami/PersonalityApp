@@ -159,6 +159,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="SWf-Pz-q3D"/>
                     <connections>
+                        <outlet property="questionOne" destination="6MX-KV-epD" id="gEQ-yN-hGJ"/>
+                        <outlet property="questionThree" destination="gWq-7A-E1d" id="0yL-NX-HOw"/>
+                        <outlet property="questionTwo" destination="aVD-et-8cR" id="Oue-IY-ZKP"/>
                         <segue destination="X5i-cf-O0R" kind="show" identifier="ResultsSegue" id="miz-XR-1UF"/>
                     </connections>
                 </viewController>

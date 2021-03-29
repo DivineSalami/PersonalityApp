@@ -9,6 +9,11 @@ import UIKit
 
 class QuestionViewController: UIViewController {
 
+    @IBOutlet weak var questionOne: UIStackView!
+    @IBOutlet weak var questionThree: UIStackView!
+    @IBOutlet weak var questionTwo: UIStackView!
+    
+    
     var questions: [Question] = [ Question(text: "Which do you prefer to eat?",
                                            type: .question1,
                                            answers: [Answer (text: "Chicken", type: .snail),
@@ -33,10 +38,32 @@ class QuestionViewController: UIViewController {
                                            ]),
     ]
     
+    var questionIndex = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        updateUI()
 
+    }
+    func updateUI() {
+        questionOne.isHidden = true
+        questionTwo.isHidden = true
+        questionThree.isHidden = true
+        
+        navigationItem.title = "Question #\(questionIndex + 1)"
+        
+        let currentQuestion = questions[questionIndex]
+        
+        switch currentQuestion.type {
+        case .question1:
+            questionOne.isHidden = false
+        case .question2:
+            questionTwo.isHidden = false
+        case .question3:
+            questionThree.isHidden = false
+        }
     }
     
 
