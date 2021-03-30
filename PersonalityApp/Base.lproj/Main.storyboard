@@ -195,7 +195,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="SWf-Pz-q3D"/>
                     <connections>
-                        <outlet property="QuestionTwoPressed" destination="aVD-et-8cR" id="UTS-8Q-PHP"/>
                         <outlet property="buttonEight" destination="bWB-GV-2Xj" id="uhP-mz-Y8a"/>
                         <outlet property="buttonEleven" destination="ynh-Nz-QBV" id="chb-uo-A1u"/>
                         <outlet property="buttonFive" destination="JXl-UL-rvX" id="MbC-bd-CW9"/>
