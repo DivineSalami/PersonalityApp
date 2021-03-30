@@ -73,8 +73,8 @@ class QuestionViewController: UIViewController {
 
     }
     func updateUI() {
-        questionOne.isHidden = true
         questionTwo.isHidden = true
+        questionOne.isHidden = true
         questionThree.isHidden = true
         
         navigationItem.title = "Question #\(questionIndex + 1)"
@@ -88,26 +88,38 @@ class QuestionViewController: UIViewController {
         
         switch currentQuestion.type {
         case .question1:
-            questionOne.isHidden = false
+            
             updateOne(using: currentAnswers)
         case .question2:
-            questionTwo.isHidden = false
+            
             updateTwo(using: currentAnswers)
         case .question3:
-            questionThree.isHidden = false
+            
             updateThree(using: currentAnswers)
         }
     }
     
     
     func updateOne(using answers: [Answer]) {
-        
+        questionOne.isHidden = false
+        buttonOne.setTitle(answers[0].text, for: .normal)
+        buttonTwo.setTitle(answers[1].text, for: .normal)
+        buttonThree.setTitle(answers[2].text, for: .normal)
+        buttonFour.setTitle(answers[3].text, for: .normal)
     }
     func updateTwo(using answers: [Answer]) {
-        
+        questionTwo.isHidden = false
+        buttonFive.setTitle(answers[0].text, for: .normal)
+        buttonSix.setTitle(answers[1].text, for: .normal)
+        buttonSeven.setTitle(answers[2].text, for: .normal)
+        buttonEight.setTitle(answers[3].text, for: .normal)
     }
     func updateThree(using answers: [Answer]) {
-        
+        questionThree.isHidden = false
+        buttonNine.setTitle(answers[0].text, for: .normal)
+        buttonTen.setTitle(answers[1].text, for: .normal)
+        buttonEleven.setTitle(answers[2].text, for: .normal)
+        buttonTwelve.setTitle(answers[3].text, for: .normal)
     }
     
 
