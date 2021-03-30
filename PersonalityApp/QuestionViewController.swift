@@ -181,6 +181,14 @@ class QuestionViewController: UIViewController {
     
     func nextQuestion() {
         
+        questionIndex += 1
+        if questionIndex < questions.count {
+            updateUI()
+        } else {
+            performSegue(withIdentifier: "ResultsSegue", sender: nil)
+        }
+        
+        
     }
     
 }
