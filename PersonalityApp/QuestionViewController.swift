@@ -65,6 +65,8 @@ class QuestionViewController: UIViewController {
     
     var questionIndex = 0
     
+    var answersChosen: [Answer] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -121,6 +123,14 @@ class QuestionViewController: UIViewController {
         buttonEleven.setTitle(answers[2].text, for: .normal)
         buttonTwelve.setTitle(answers[3].text, for: .normal)
     }
+    @IBAction func QuestionOnePressed(_ sender: UIButton) {
+    }
     
 
+    @IBAction func QuestionTwoPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func QuestionThreePressed(_ sender: UIButton) {
+    }
+    
 }
