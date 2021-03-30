@@ -124,13 +124,63 @@ class QuestionViewController: UIViewController {
         buttonTwelve.setTitle(answers[3].text, for: .normal)
     }
     @IBAction func QuestionOnePressed(_ sender: UIButton) {
+        let currentAnswers = questions[questionIndex].answers
+        
+        switch sender {
+        case buttonOne:
+            answersChosen.append(currentAnswers[0])
+        case buttonTwo:
+            answersChosen.append(currentAnswers[1])
+        case buttonThree:
+            answersChosen.append(currentAnswers[2])
+        case buttonFour:
+            answersChosen.append(currentAnswers[3])
+        default:
+            break
+        }
+        nextQuestion()
+        
     }
     
 
     @IBAction func QuestionTwoPressed(_ sender: UIButton) {
+        let currentAnswers = questions[questionIndex].answers
+        
+        switch sender {
+        case buttonFive:
+            answersChosen.append(currentAnswers[0])
+        case buttonSix:
+            answersChosen.append(currentAnswers[1])
+        case buttonSeven:
+            answersChosen.append(currentAnswers[2])
+        case buttonEight:
+            answersChosen.append(currentAnswers[3])
+        default:
+            break
+        }
+        nextQuestion()
     }
     
     @IBAction func QuestionThreePressed(_ sender: UIButton) {
+        let currentAnswers = questions[questionIndex].answers
+        
+        switch sender {
+        case buttonNine:
+            answersChosen.append(currentAnswers[0])
+        case buttonTen:
+            answersChosen.append(currentAnswers[1])
+        case buttonEleven:
+            answersChosen.append(currentAnswers[2])
+        case buttonTwelve:
+            answersChosen.append(currentAnswers[3])
+        default:
+            break
+        }
+        nextQuestion()
+    }
+    
+    func nextQuestion() {
+        
     }
     
 }
