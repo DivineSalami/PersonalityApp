@@ -80,15 +80,34 @@ class QuestionViewController: UIViewController {
         navigationItem.title = "Question #\(questionIndex + 1)"
         
         let currentQuestion = questions[questionIndex]
+        let currentAnswers = currentQuestion.answers
+        let totalProgress = Float(questionIndex) / Float(questions.count)
+        
+        questionLabel.text = currentQuestion.text
+        questionProgress.setProgress(totalProgress, animated: true)
         
         switch currentQuestion.type {
         case .question1:
             questionOne.isHidden = false
+            updateOne(using: currentAnswers)
         case .question2:
             questionTwo.isHidden = false
+            updateTwo(using: currentAnswers)
         case .question3:
             questionThree.isHidden = false
+            updateThree(using: currentAnswers)
         }
+    }
+    
+    
+    func updateOne(using answers: [Answer]) {
+        
+    }
+    func updateTwo(using answers: [Answer]) {
+        
+    }
+    func updateThree(using answers: [Answer]) {
+        
     }
     
 
