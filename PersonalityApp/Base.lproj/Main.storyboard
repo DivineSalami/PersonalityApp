@@ -61,28 +61,24 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXl-UL-rvX">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionTwoPressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="tQg-qT-Zh7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-uL-sKg">
                                         <rect key="frame" x="0.0" y="50" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionTwoPressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="9aC-9a-0xu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNO-fl-pZt">
                                         <rect key="frame" x="0.0" y="100" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionTwoPressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="5ZT-T2-2zm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWB-GV-2Xj">
                                         <rect key="frame" x="0.0" y="150" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionTwoPressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="Y3E-At-008"/>
                                         </connections>
@@ -94,28 +90,24 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORz-FM-4Dl">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionThreePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="656-Yn-prx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz2-sV-MOX">
                                         <rect key="frame" x="0.0" y="50" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionThreePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="imc-wi-m7N"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynh-Nz-QBV">
                                         <rect key="frame" x="0.0" y="100" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionThreePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="J5P-gO-UQu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnn-b4-acS">
                                         <rect key="frame" x="0.0" y="150" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionThreePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="p8t-bL-Y8o"/>
                                         </connections>
@@ -127,28 +119,24 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRL-Ro-eWC">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionOnePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="mRf-vb-IkN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6p-aX-RGj">
                                         <rect key="frame" x="0.0" y="50" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionOnePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="aXs-gl-u5L"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5z-Aj-tLE">
                                         <rect key="frame" x="0.0" y="100" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionOnePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="wzs-TC-IEq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-rA-a9p">
                                         <rect key="frame" x="0.0" y="150" width="382" height="30"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="QuestionOnePressed:" destination="vaY-Q4-7Es" eventType="touchUpInside" id="u1s-PO-ate"/>
                                         </connections>
@@ -186,12 +174,6 @@
                             <constraint firstItem="aVD-et-8cR" firstAttribute="leading" secondItem="IHJ-LL-tox" secondAttribute="leading" constant="16" id="kr9-ic-Rkj"/>
                             <constraint firstItem="gWq-7A-E1d" firstAttribute="centerX" secondItem="InY-Fj-YnA" secondAttribute="centerX" id="s92-bZ-gig"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="aVD-et-8cR"/>
-                                <exclude reference="gWq-7A-E1d"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="SWf-Pz-q3D"/>
                     <connections>
@@ -255,10 +237,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="LtP-Ru-nKs">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="QbY-XD-7Tt"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="QbY-XD-7Tt">
+                            <connections>
+                                <segue destination="DFW-zR-LAE" kind="unwind" unwindAction="unwindToQuizIntroWithSegue:" id="zac-Wr-TJH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="DefinitionLabel" destination="ji2-9k-oWK" id="eph-DO-bEN"/>
+                        <outlet property="ResultsLabel" destination="eKh-bf-xhN" id="isS-W8-vZ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HQ3-3J-f22" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="DFW-zR-LAE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2342.0289855072465" y="103.79464285714285"/>
         </scene>
