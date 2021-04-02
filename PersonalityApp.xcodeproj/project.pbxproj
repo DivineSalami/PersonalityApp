@@ -15,6 +15,7 @@
 		A00DF0E5260BBC1000EA652D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00DF0E3260BBC1000EA652D /* LaunchScreen.storyboard */; };
 		A00DF0EE260BC3D400EA652D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DF0ED260BC3D400EA652D /* QuestionViewController.swift */; };
 		A00DF0F1260BC46000EA652D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DF0F0260BC46000EA652D /* ResultsViewController.swift */; };
+		A0162D622617981E0080C6AF /* letsGo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0162D612617981E0080C6AF /* letsGo.mp3 */; };
 		A096A18C260CFEE2003ADA34 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096A18B260CFEE2003ADA34 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		A00DF0E6260BBC1000EA652D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00DF0ED260BC3D400EA652D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		A00DF0F0260BC46000EA652D /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A0162D612617981E0080C6AF /* letsGo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = letsGo.mp3; sourceTree = "<group>"; };
 		A096A18B260CFEE2003ADA34 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 				A00DF0DE260BBC1000EA652D /* Main.storyboard */,
 				A096A18B260CFEE2003ADA34 /* QuestionData.swift */,
 				A00DF0E1260BBC1000EA652D /* Assets.xcassets */,
+				A0162D612617981E0080C6AF /* letsGo.mp3 */,
 				A00DF0E3260BBC1000EA652D /* LaunchScreen.storyboard */,
 				A00DF0E6260BBC1000EA652D /* Info.plist */,
 				A00DF0ED260BC3D400EA652D /* QuestionViewController.swift */,
@@ -135,6 +138,7 @@
 			files = (
 				A00DF0E5260BBC1000EA652D /* LaunchScreen.storyboard in Resources */,
 				A00DF0E2260BBC1000EA652D /* Assets.xcassets in Resources */,
+				A0162D622617981E0080C6AF /* letsGo.mp3 in Resources */,
 				A00DF0E0260BBC1000EA652D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

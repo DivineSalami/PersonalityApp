@@ -34,7 +34,7 @@ calculatePersonalityResult()
         })
         let mostCommonAnswer = frequentAnswersSorted.first!.key
             
-        ResultsLabel.text = "you are a \(mostCommonAnswer.rawValue)!"
+        ResultsLabel.text = "You are \(mostCommonAnswer.rawValue)!"
         DefinitionLabel.text = mostCommonAnswer.definition
         
     }

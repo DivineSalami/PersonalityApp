@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class IntroductionViewController: UIViewController {
+    
+    var audioPlayer = AVAudioPlayer()
     
     @IBAction func unwindToQuizIntro (segue: UIStoryboardSegue) {
         
@@ -16,9 +19,19 @@ class IntroductionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let sound = Bundle.main.path(forResource: "letsGo", ofType: "mp3")
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            
+        } catch {
+            print(error)
+        }
        
     }
-
+    @IBAction func LetsGooo(_ sender: Any) {
+        audioPlayer.play()
+    }
+    
 
 }
 
